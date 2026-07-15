@@ -69,3 +69,22 @@ let variable2 = 5;
 
 let resultado = variable1 > variable2;
 console.log(resultado);
+
+
+//operadores logicos
+let nota1 = 7;
+let nota2 = 9;
+let respuesta;
+
+//and(&&) 
+respuesta = (nota1 > 6) && (nota2 > 6);
+console.log(respuesta);
+
+//or(||)
+respuesta = (nota1 > 6) || (nota2 > 6);
+console.log(respuesta);
+
+//not(!)
+respuesta = !(nota1 < 6);
+console.log(respuesta);
+
